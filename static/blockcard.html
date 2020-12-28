@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>block card</title>
+	<style>
+		body{
+			background-image:url("blockcard.png");
+			background-size:cover;
+		}
+		td{
+			color:black
+		}
+	</style>
+</head>
+<body>
+	 <h3 style="color:white;" align ="center">BLOCK YOUR CARD </h3>	
+	<div id="body" align="center">
+		<form action="blockdisplay" method="POST">
+			<table align="center">
+				<tr>
+					<td>Enter phone num:</td>
+					<td><input type="text" class="formdata" name="phone"></td>
+				</tr>
+				<tr>
+					<td  align="center"><input type="submit" value="block"></td>
+					<td  align="center"><input type="reset" value="cancel"></td>
+				</tr>
+			</table>
+		</form>
+	</div>
+	
+</body>
+</html>
